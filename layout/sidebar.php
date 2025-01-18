@@ -88,6 +88,47 @@ if (isset($_GET['halaman'])) {
                 <?php else : ?>
                 <?php endif ?>
 
+                <li class="sidebar-title">Collapse</li>
+
+                <li
+                    class="sidebar-item  has-sub">
+                    <a href="#" class='sidebar-link'>
+                        <i class="bi bi-123"></i>
+                        <span>Layouts</span>
+                    </a>
+
+                    <ul class="submenu ">
+
+                        <li class="submenu-item  ">
+                            <a href="layout-default.html" class="submenu-link">Default Layout</a>
+
+                        </li>
+
+                        <li class="submenu-item  ">
+                            <a href="layout-vertical-1-column.html" class="submenu-link">1 Column</a>
+
+                        </li>
+
+                        <li class="submenu-item  ">
+                            <a href="layout-vertical-navbar.html" class="submenu-link">Vertical Navbar</a>
+
+                        </li>
+
+                        <li class="submenu-item  ">
+                            <a href="layout-rtl.html" class="submenu-link">RTL Layout</a>
+
+                        </li>
+
+                        <li class="submenu-item  ">
+                            <a href="layout-horizontal.html" class="submenu-link">Horizontal Menu</a>
+
+                        </li>
+
+                    </ul>
+
+
+                </li>
+
             </ul>
         </div>
     </div>
